@@ -1,0 +1,91 @@
+﻿<Window x:Class="Translation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Translation"
+        mc:Ignorable="d" KeyDown="Window_PreviewKeyDown"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+        BorderThickness="0" Loaded="Window_Loaded"
+        WindowStyle="None" AllowsTransparency="True"
+        Background="White" MinHeight="200" MinWidth="350" MaxHeight="600" MaxWidth="850"
+        Title="谷歌翻译" Height="400" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Background="#FF24A2DC" MouseLeftButtonDown="Border_MouseLeftButtonDown"/>
+        <Border Grid.Row="3" Background="#FF24A2DC"/>
+        <!--顶部-->
+        <Label Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="15" Foreground="White">Google翻译</Label>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Height="30">
+            <Button x:Name="btnTopMost" Width="30" Background="Gray" ToolTip="顶置" Style="{StaticResource BlueEffectImageButton}" Click="btnTopMost_Click">
+                <TextBlock x:Name="tbTop" Text="&#xe76c;" Style="{DynamicResource FIcon}" FontSize="15" Foreground="White"/>
+            </Button>
+            <Button x:Name="btnMin" Width="30" Background="Gray" ToolTip="最小化" Style="{StaticResource BlueEffectImageButton}" Click="btnMin_Click">
+                <TextBlock Text="&#xe729;" Style="{StaticResource FIcon}" FontSize="15" Foreground="White"/>
+            </Button>
+            <Button x:Name="btnClose" Width="30" Background="Red" ToolTip="关闭" Style="{StaticResource BlueEffectImageButton}" Click="btnClose_Click">
+                <TextBlock Text="&#xe723;" Style="{StaticResource FIcon}" FontSize="15" Foreground="White"/>
+            </Button>
+        </StackPanel>
+        
+        <!--中间-->
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <TextBox x:Name="tbxWord" Grid.Row="0" Height="auto" Width="auto" Margin="10"  Style="{StaticResource VisualTextBox}"></TextBox>
+            <Button x:Name="btnTranslate" Grid.Row="0" Width="30" Height="30" Background="#FF39D32A"
+                    VerticalAlignment="Bottom" HorizontalAlignment="Right" ToolTip="翻译"
+                    Style="{StaticResource BlueEffectImageButton}" Margin="20" Panel.ZIndex="0"
+                    Click="btnTranslate_Click" >
+                <TextBlock Text="&#xe752;" Style="{DynamicResource FIcon}" FontSize="20" Foreground="Gray"/>
+            </Button>
+            <TextBox x:Name="tbxResult" Grid.Row="1" Height="auto" Width="auto" Margin="10" Style="{StaticResource TextBoxText}"></TextBox>
+            <Button x:Name="btnLang" Grid.Row="1" Width="30" Height="30" Background="#FF39D32A"
+                    VerticalAlignment="Bottom" HorizontalAlignment="Right" ToolTip="中"
+                    Style="{StaticResource UpdataButton}" Margin="20" Panel.ZIndex="0"
+                    Click="btnLang_Click" >
+                <TextBlock x:Name="tbLang" Text="中" FontSize="18" Foreground="Black"/>
+            </Button>
+        </Grid>
+        
+        <!--底部-->
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="2" Height="30" Orientation="Horizontal">
+            <Label FontSize="11" FontFamily="Microsoft Yahei" Foreground="White" Height="24">主程序版本：1.0.0</Label>
+            <Button x:Name="btnUpdata" Height="24" Style="{StaticResource UpdataButton}" Margin="10,0,0,0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Height="24" FontFamily="Microsoft Yahei" Foreground="White" FontSize="11">检查更新</Label>
+                    <TextBlock Grid.Column="1" Text="&#xe76a;" FontSize="15" Foreground="White" Style="{StaticResource FIcon}"/>
+                </Grid>
+            </Button>
+        </StackPanel>
+        <Border Grid.Row="2" Name="ResizeBottomRight" MouseMove="ResizePressed"
+                    MouseDown="ResizePressed" Height="15" Width="15" 
+                    HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,3,3" RenderTransformOrigin="0.5,0.5">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="88.182"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Border.RenderTransform>
+            <Border.Background>
+                <DrawingBrush>
+                    <DrawingBrush.Drawing>
+                        <GeometryDrawing Geometry="M96,128 L896,928 96,128 z M352,384 L128,160 172.19048,160 352,160 352,384 z M608,640 L384,416 608,416 608,640 z M608,384 L384,384 384,160 608,160 608,384 z M864,896 L640,672 864,672 864,896 z M864,640 L640,640 640,416 864,416 864,640 z M864,384 L640,384 640,160 864,160 864,384 z" Brush="#888888"></GeometryDrawing>
+                    </DrawingBrush.Drawing>
+                </DrawingBrush>
+            </Border.Background>
+        </Border>
+    </Grid>
+</Window>
