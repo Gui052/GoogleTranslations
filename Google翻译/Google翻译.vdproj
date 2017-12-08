@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_36857E5D5D2C4218967EB20D1E4309C7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_5361197F6AD1472FA1588F8B88C4D6E7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -29,12 +35,6 @@
         {
         "MsmKey" = "8:_9E0551F781ABBF116DBBD8AAF8F2EFEB"
         "OwnerKey" = "8:_ED5699CF936C414193F7AB1EF5377135"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_BD7EA29016E14636BFF13E0E68ECDF38"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -179,6 +179,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_36857E5D5D2C4218967EB20D1E4309C7"
+            {
+            "SourcePath" = "8:..\\..\\Translation\\bin\\Debug\\gettk.js"
+            "TargetName" = "8:gettk.js"
+            "Tag" = "8:"
+            "Folder" = "8:_B0F1DC9910AB49FEA604A874D418B142"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5361197F6AD1472FA1588F8B88C4D6E7"
             {
             "SourcePath" = "8:..\\Translation\\Google.ico"
@@ -228,26 +248,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BD7EA29016E14636BFF13E0E68ECDF38"
-            {
-            "SourcePath" = "8:..\\..\\Translation\\Resource\\gettk.js"
-            "TargetName" = "8:gettk.js"
-            "Tag" = "8:"
-            "Folder" = "8:_B0F1DC9910AB49FEA604A874D418B142"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -307,7 +307,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Google翻译"
         "ProductCode" = "8:{9D76DCF3-DA27-4C94-9064-3C2D30F99EE8}"
-        "PackageCode" = "8:{D8E726F8-A5E7-4118-B888-73C3AC29F6D3}"
+        "PackageCode" = "8:{0D95A43B-AFC5-4359-BEF9-6F2A8693C976}"
         "UpgradeCode" = "8:{3532DF60-88E7-47DC-ABA7-8014A075F23B}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
