@@ -15,13 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_2C61BA466B034F819AE842A092F0A7F6"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4E8B2B8CE077CD0D0524ACE774C763A9"
+        "MsmKey" = "8:_02BAFA896A550E351268782895F76710"
         "OwnerKey" = "8:_ED5699CF936C414193F7AB1EF5377135"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -33,8 +27,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_9973A6ADBC843E1CFFD1AB52F1C5C7D6"
+        "MsmKey" = "8:_9E0551F781ABBF116DBBD8AAF8F2EFEB"
         "OwnerKey" = "8:_ED5699CF936C414193F7AB1EF5377135"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BD7EA29016E14636BFF13E0E68ECDF38"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -46,19 +46,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4E8B2B8CE077CD0D0524ACE774C763A9"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_ED5699CF936C414193F7AB1EF5377135"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9973A6ADBC843E1CFFD1AB52F1C5C7D6"
+        "OwnerKey" = "8:_9E0551F781ABBF116DBBD8AAF8F2EFEB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_02BAFA896A550E351268782895F76710"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -79,6 +79,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -95,6 +111,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -124,34 +148,14 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2C61BA466B034F819AE842A092F0A7F6"
-            {
-            "SourcePath" = "8:..\\Translation\\bin\\Debug\\gettk.js"
-            "TargetName" = "8:gettk.js"
-            "Tag" = "8:"
-            "Folder" = "8:_B0F1DC9910AB49FEA604A874D418B142"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4E8B2B8CE077CD0D0524ACE774C763A9"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_02BAFA896A550E351268782895F76710"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_4E8B2B8CE077CD0D0524ACE774C763A9"
+                    "_02BAFA896A550E351268782895F76710"
                     {
                     "Name" = "8:System.Net.Http.dll"
                     "Attributes" = "3:512"
@@ -195,14 +199,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9973A6ADBC843E1CFFD1AB52F1C5C7D6"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9E0551F781ABBF116DBBD8AAF8F2EFEB"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_9973A6ADBC843E1CFFD1AB52F1C5C7D6"
+                    "_9E0551F781ABBF116DBBD8AAF8F2EFEB"
                     {
                     "Name" = "8:Newtonsoft.Json.dll"
                     "Attributes" = "3:512"
@@ -224,6 +228,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BD7EA29016E14636BFF13E0E68ECDF38"
+            {
+            "SourcePath" = "8:..\\..\\Translation\\Resource\\gettk.js"
+            "TargetName" = "8:gettk.js"
+            "Tag" = "8:"
+            "Folder" = "8:_B0F1DC9910AB49FEA604A874D418B142"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -283,7 +307,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Google翻译"
         "ProductCode" = "8:{9D76DCF3-DA27-4C94-9064-3C2D30F99EE8}"
-        "PackageCode" = "8:{7DC8C09D-9E66-433A-A3D8-9CBF8C420946}"
+        "PackageCode" = "8:{D8E726F8-A5E7-4118-B888-73C3AC29F6D3}"
         "UpgradeCode" = "8:{3532DF60-88E7-47DC-ABA7-8014A075F23B}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
