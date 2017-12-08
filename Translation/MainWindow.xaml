@@ -55,7 +55,7 @@
         
         <!--底部-->
         <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="2" Height="30" Orientation="Horizontal">
-            <Label FontSize="11" FontFamily="Microsoft Yahei" Foreground="White" Height="24">主程序版本：1.0.0</Label>
+            <Label FontSize="11" FontFamily="Microsoft Yahei" Foreground="White" Height="24">主程序版本：1.0.1</Label>
             <Button x:Name="btnUpdata" Height="24" Style="{StaticResource UpdataButton}" Margin="10,0,0,0">
                 <Grid>
                     <Grid.ColumnDefinitions>
