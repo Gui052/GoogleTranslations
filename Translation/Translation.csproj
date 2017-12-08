@@ -129,6 +129,7 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Google.ico" />
+    <Content Include="gettk.js" />
     <Content Include="Resource\IconFont\demo.css" />
     <Content Include="Resource\IconFont\demo_fontclass.html" />
     <Content Include="Resource\IconFont\demo_symbol.html" />
