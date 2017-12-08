@@ -11,6 +11,7 @@
                 <ResourceDictionary Source="Style/ScorlViewerStyle.xaml"/>
                 <ResourceDictionary Source="Style/SliderStyle.xaml"/>
                 <ResourceDictionary Source="Style/TextBoxStyle.xaml"/>
+                <ResourceDictionary Source="Style/WindowsStyle.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

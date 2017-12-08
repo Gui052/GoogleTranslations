@@ -6,9 +6,8 @@
         xmlns:local="clr-namespace:Translation"
         mc:Ignorable="d" KeyDown="Window_PreviewKeyDown"
         ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
-        BorderThickness="0" Loaded="Window_Loaded"
-        WindowStyle="None" AllowsTransparency="True"
-        Background="White" MinHeight="200" MinWidth="350" MaxHeight="600" MaxWidth="850"
+        Loaded="Window_Loaded" Style="{StaticResource for_noresize_window}"
+        MinHeight="200" MinWidth="350" MaxHeight="600" MaxWidth="850"
         Title="谷歌翻译" Height="400" Width="500">
     <Grid>
         <Grid.RowDefinitions>
