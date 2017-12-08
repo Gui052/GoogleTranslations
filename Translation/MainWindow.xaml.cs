@@ -110,7 +110,7 @@ namespace Translation
             string[] texts = tbxWord.Text.Split('\n');
             foreach(string i in texts)
             {
-                tbxResult.Text= tbxResult.Text+ ts.GoogleTranslate(i.Replace("\t", "").Replace("\r", "").Replace("。", "."), "auto", type)+'\n';
+                tbxResult.Text= tbxResult.Text+ ts.GoogleTranslate(i.Replace("\t", "").Replace("\r", ""), "auto", type)+'\n';
             }
         }
 

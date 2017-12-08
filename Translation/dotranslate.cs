@@ -42,7 +42,12 @@ namespace Translation
 
             dynamic TempResult = Newtonsoft.Json.JsonConvert.DeserializeObject(ResultHtml);
 
-            string ResultText = Convert.ToString(TempResult[0][0][0]);
+            string ResultText = string.Empty;
+            //解析json数据
+            foreach (var i in TempResult[0])
+            {
+                ResultText = ResultText + Convert.ToString(i[0]);
+            }
 
             return ResultText;
         }

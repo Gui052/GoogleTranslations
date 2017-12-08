@@ -21,19 +21,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_5361197F6AD1472FA1588F8B88C4D6E7"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_9E0551F781ABBF116DBBD8AAF8F2EFEB"
+        "MsmKey" = "8:_05F5324DF0389594B3498F987B1E3CA6"
         "OwnerKey" = "8:_ED5699CF936C414193F7AB1EF5377135"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_BD7EA29016E14636BFF13E0E68ECDF38"
+        "MsmKey" = "8:_5361197F6AD1472FA1588F8B88C4D6E7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -45,6 +39,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_FC335FA7FB6F4A598B6BA1AE79C822E3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_ED5699CF936C414193F7AB1EF5377135"
         "MsmSig" = "8:_UNDEFINED"
@@ -52,7 +52,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9E0551F781ABBF116DBBD8AAF8F2EFEB"
+        "OwnerKey" = "8:_05F5324DF0389594B3498F987B1E3CA6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -118,6 +118,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -179,34 +187,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5361197F6AD1472FA1588F8B88C4D6E7"
-            {
-            "SourcePath" = "8:..\\Translation\\Google.ico"
-            "TargetName" = "8:Google.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_B0F1DC9910AB49FEA604A874D418B142"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9E0551F781ABBF116DBBD8AAF8F2EFEB"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_05F5324DF0389594B3498F987B1E3CA6"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_9E0551F781ABBF116DBBD8AAF8F2EFEB"
+                    "_05F5324DF0389594B3498F987B1E3CA6"
                     {
                     "Name" = "8:Newtonsoft.Json.dll"
                     "Attributes" = "3:512"
@@ -230,9 +218,29 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BD7EA29016E14636BFF13E0E68ECDF38"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5361197F6AD1472FA1588F8B88C4D6E7"
             {
-            "SourcePath" = "8:..\\..\\Translation\\Resource\\gettk.js"
+            "SourcePath" = "8:..\\Translation\\Google.ico"
+            "TargetName" = "8:Google.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_B0F1DC9910AB49FEA604A874D418B142"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FC335FA7FB6F4A598B6BA1AE79C822E3"
+            {
+            "SourcePath" = "8:..\\Translation\\bin\\Debug\\gettk.js"
             "TargetName" = "8:gettk.js"
             "Tag" = "8:"
             "Folder" = "8:_B0F1DC9910AB49FEA604A874D418B142"
@@ -307,7 +315,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Google翻译"
         "ProductCode" = "8:{9D76DCF3-DA27-4C94-9064-3C2D30F99EE8}"
-        "PackageCode" = "8:{D8E726F8-A5E7-4118-B888-73C3AC29F6D3}"
+        "PackageCode" = "8:{21290227-34E5-4F45-832F-6B95BC396407}"
         "UpgradeCode" = "8:{3532DF60-88E7-47DC-ABA7-8014A075F23B}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
