@@ -114,6 +114,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="bin\Debug\Translation.exe.config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -129,7 +130,11 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Google.ico" />
-    <Content Include="gettk.js" />
+    <Content Include="bin\Debug\gettk.js" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Resource Include="bin\Debug\Newtonsoft.Json.xml" />
+    <Content Include="bin\Debug\Translation.exe" />
+    <Content Include="bin\Debug\Translation.pdb" />
     <Content Include="Resource\IconFont\demo.css" />
     <Content Include="Resource\IconFont\demo_fontclass.html" />
     <Content Include="Resource\IconFont\demo_symbol.html" />
